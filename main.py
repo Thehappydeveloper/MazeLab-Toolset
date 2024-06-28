@@ -39,6 +39,25 @@ def main(dataset_folder_path, output_file_path, selected_experiment_participant_
             
             for participant in participants_progress:
                 try:
+                    # Define the paths
+                    HMD_csv_path = os.path.join(dataset_folder_path, 'Experiments', experiment, participant, 'HMD_data.csv')
+                    viewport_json_path = os.path.join(dataset_folder_path, 'Experiments', experiment, participant, 'staticActorsFoV.json')
+
+                    # Destination folder
+                    json_csv_destination = os.path.join(output_file_path, experiment, participant)
+
+                    # Ensure the destination directory exists
+                    os.makedirs(json_csv_destination, exist_ok=True)
+
+                    # Copy the files
+                    with open(HMD_csv_path, 'rb') as src_file:
+                        with open(os.path.join(json_csv_destination, 'HMD_data.csv'), 'wb') as dest_file:
+                            dest_file.write(src_file.read())
+
+                    with open(viewport_json_path, 'rb') as src_file:
+                        with open(os.path.join(json_csv_destination, 'staticActorsFoV.json'), 'wb') as dest_file:
+                            dest_file.write(src_file.read())
+
                     frames_path = os.path.join(dataset_folder_path, 'Experiments', experiment, participant, 'DynamicActors')
 
                     if not os.path.exists(frames_path):
@@ -63,7 +82,7 @@ def main(dataset_folder_path, output_file_path, selected_experiment_participant_
                     static_progress = tqdm(static_points_by_actor.items(), desc="Saving Static PCDs", file=sys.stdout, leave=False)
                     
                     for name, points in static_progress:
-                        output_path = os.path.join(output_file_path, experiment, "StaticPCDs", participant, (name + ".ply"))
+                        output_path = os.path.join(output_file_path, experiment, "StaticPCDs", (name + ".ply"))
                         try:
                             save_ply(output_path, points, float_precision, light_color, material_color, ply_format)
                             static_progress.set_postfix(file=name)
@@ -87,7 +106,7 @@ def main(dataset_folder_path, output_file_path, selected_experiment_participant_
                         frame_points = process_frame(frame_path, material_color, light_color, include_spheres, include_prisms,
                                                     include_point_clouds, sphere_density, prism_density, point_cloud_directory, pcds_point_cap, normalize)
 
-                        output_path = os.path.join(output_file_path, experiment, participant, (frame_name.split('.')[0] + ".ply"))
+                        output_path = os.path.join(output_file_path, experiment, participant, "DynamicActors", (frame_name.split('.')[0] + ".ply"))
                         os.makedirs(os.path.dirname(output_path), exist_ok=True)
                         save_ply(output_path, frame_points, float_precision, light_color, material_color, ply_format)
                         frames_progress.set_postfix(frame=frame_name)  # Update the frame name in the progress bar
