@@ -91,7 +91,7 @@ def generate_command():
     experiment_dict_base64 = base64.b64encode(experiment_dict_str.encode('utf-8')).decode('utf-8')
 
     command = (
-        f"python converter.py --input_path \"{input_path}\" --output_path \"{output_path}\" "
+        f"python main.py --input_path \"{input_path}\" --output_path \"{output_path}\" "
         f"--fps {fps_value} --material_color \"{material_color_value}\" "
         f"--light_color {light_color_value} --float_precision {float_precision_value} "
         f"--sphere_density {sphere_density_value} --prism_density {prism_density_value} "
