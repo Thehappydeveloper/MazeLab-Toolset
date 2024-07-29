@@ -9,7 +9,6 @@ def load_point_cloud(file_path):
 
     Parameters:
     file_path (str): Path to the point cloud file.
-    num_attributes (int): Number of attributes to read from the file.
 
     Returns:
     numpy.ndarray: Array of point cloud data.
@@ -43,19 +42,22 @@ def generate_output_file_name(input_file_path):
         output_file_name = f"{name}.ply"
     return output_file_name
 
-def save_ply(file_path, points, float_precision, light_color, material_color, ply_format='Binary'):
+def save_ply(file_path, points, config):
     """
     Save points to a PLY file.
 
     Parameters:
     file_path (str): Path to the output PLY file.
     points (numpy.ndarray): Array of point data to save.
-    float_precision (str): String representing the floating precision ("16", "32", or "64").
-    light_color (str): The type of light color data ("RGBI", "RGB", "Intensity").
-    material_color (str): The type of material color data ("RGBA", "Grey Scale", "RGB").
-    format (str): The format of the PLY file, either 'binary' or 'ascii'.
+    config (Config): Configuration object containing parameters for saving.
     """
     
+    # Extract configuration parameters
+    float_precision = config.float_precision
+    light_color = config.light_color
+    material_color = config.material_color
+    ply_format = config.ply_format
+
     if float_precision == 16:
         dtype = np.float16
     elif float_precision == 32:
@@ -77,7 +79,7 @@ property float{float_precision} z
     if material_color == "RGBA":
         header += "property uchar red\nproperty uchar green\nproperty uchar blue\nproperty uchar alpha\n"
         point_dtype += [('red', np.uint8), ('green', np.uint8), ('blue', np.uint8), ('alpha', np.uint8)]
-    elif material_color == "Grey scale":
+    elif material_color == "Grey Scale":
         header += "property uchar intensity\n"
         point_dtype += [('intensity', np.uint8)]
     elif material_color == "RGB":
@@ -95,7 +97,7 @@ property float{float_precision} z
         point_dtype += [('light_intensity', np.uint8)]
     
     header += "property uchar rendered\n"
-    point_dtype +=  [("rendered", np.uint8)]
+    point_dtype += [("rendered", np.uint8)]
     header += "end_header\n"
     
     # Create directory if it does not exist

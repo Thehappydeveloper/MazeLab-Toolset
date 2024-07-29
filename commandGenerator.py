@@ -264,7 +264,7 @@ fps_label.grid(row=0, column=0, sticky="e")
 
 fps_combobox = ttk.Combobox(settings_frame, values=[1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60], state="readonly")
 fps_combobox.grid(row=0, column=1)
-fps_combobox.current(0)
+fps_combobox.current(6)
 
 material_color_label = tk.Label(settings_frame, text="Material Color:")
 material_color_label.grid(row=1, column=0, sticky="e")
@@ -276,9 +276,9 @@ material_color_combobox.current(1)
 light_color_label = tk.Label(settings_frame, text="Light Color:")
 light_color_label.grid(row=2, column=0, sticky="e")
 
-light_color_combobox = ttk.Combobox(settings_frame, values=["RGBI", "RGB", "Intensity", "None"], state="readonly")
+light_color_combobox = ttk.Combobox(settings_frame, values=["RGBAI", "RGBA", "RGBI", "RGB", "Intensity", "None"], state="readonly")
 light_color_combobox.grid(row=2, column=1)
-light_color_combobox.current(1)
+light_color_combobox.current(2)
 
 float_precision_label = tk.Label(settings_frame, text="Float Precision:")
 float_precision_label.grid(row=3, column=0, sticky="e")
