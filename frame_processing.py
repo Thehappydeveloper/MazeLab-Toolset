@@ -165,7 +165,7 @@ def process_frame(frame_path, config):
 
     if config.include_point_clouds == 'Yes':
         for pcd in point_clouds:
-            pcd["Directory"] = config.dataset_folder_path
+            pcd["Directory"] = os.path.join(config.dataset_folder_path, "PCDs", "Static")
         process_entities(point_clouds, 'point_cloud', config, all_points)
 
     all_points = np.array(all_points, dtype=np.float32)
@@ -198,7 +198,7 @@ def process_frame_by_actor(frame_path, config):
 
     if config.include_point_clouds == 'Yes':
         for pcd in point_clouds:
-            pcd["Directory"] = config.dataset_folder_path
+            pcd["Directory"] = os.path.join(config.dataset_folder_path, "PCDs", "Static")
         process_entities(point_clouds, 'point_cloud', config, None, True, all_points_by_actor)
 
     for actor_name in all_points_by_actor:

@@ -86,9 +86,15 @@ property float{float_precision} z
         header += "property uchar red\nproperty uchar green\nproperty uchar blue\n"
         point_dtype += [('red', np.uint8), ('green', np.uint8), ('blue', np.uint8)]
     
-    if light_color == "RGBI":
+    if light_color == "RGBAI":
+        header += "property uchar light_red\nproperty uchar light_green\nproperty uchar light_blue\nproperty uchar light_alpha\nproperty uchar light_intensity\n"
+        point_dtype += [('light_red', np.uint8), ('light_green', np.uint8), ('light_blue', np.uint8), ('light_alpha', np.uint8), ('light_intensity', np.uint8)]
+    elif light_color == "RGBI":
         header += "property uchar light_red\nproperty uchar light_green\nproperty uchar light_blue\nproperty uchar light_intensity\n"
         point_dtype += [('light_red', np.uint8), ('light_green', np.uint8), ('light_blue', np.uint8), ('light_intensity', np.uint8)]
+    elif light_color == "RGBA":
+        header += "property uchar light_red\nproperty uchar light_green\nproperty uchar light_blue\nproperty uchar light_alpha\n"
+        point_dtype += [('light_red', np.uint8), ('light_green', np.uint8), ('light_blue', np.uint8), ('light_alpha', np.uint8)]
     elif light_color == "RGB":
         header += "property uchar light_red\nproperty uchar light_green\nproperty uchar light_blue\n"
         point_dtype += [('light_red', np.uint8), ('light_green', np.uint8), ('light_blue', np.uint8)]
