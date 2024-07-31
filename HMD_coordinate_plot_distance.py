@@ -83,19 +83,26 @@ def is_tile_visible(tile, position, direction_vector, fov_horizontal, fov_vertic
         (tile[4] + tile[5]) / 2
     ])
     
-    # Compute angle between tile center and direction vector
+    # Compute direction vector
     direction = direction_vector / np.linalg.norm(direction_vector)
     to_tile = tile_center - position
-    to_tile = to_tile / np.linalg.norm(to_tile)
+    to_tile_dist = np.linalg.norm(to_tile)
+    to_tile = to_tile / to_tile_dist  # Normalize to get direction
     
+    # Compute dot product and angle
     dot_product = np.dot(direction, to_tile)
     angle = np.arccos(np.clip(dot_product, -1.0, 1.0))
     
     # Convert angles to degrees
     angle_degrees = np.degrees(angle)
     
-    # Check if angle is within the field of view
-    return angle_degrees <= (fov_horizontal / 2) and angle_degrees <= (fov_vertical / 2)
+    # Check if angle is within the field of view and apply distance weighting
+    visible = angle_degrees <= (fov_horizontal / 2) and angle_degrees <= (fov_vertical / 2)
+    if visible:
+        # Use inverse distance to weight the visibility
+        distance_weight = 1 / (to_tile_dist + 1e-6)  # Add small value to avoid division by zero
+        return distance_weight
+    return 0
 
 # Function to determine the color of a tile based on direction vector
 def get_tile_color(tile, direction_vector, position):
@@ -106,11 +113,21 @@ def get_tile_color(tile, direction_vector, position):
     ])
     direction = direction_vector / np.linalg.norm(direction_vector)
     to_tile = tile_center - position
-    to_tile = to_tile / np.linalg.norm(to_tile)
+    to_tile_dist = np.linalg.norm(to_tile)
+    to_tile = to_tile / to_tile_dist
     
     dot_product = np.dot(direction, to_tile)
     color_intensity = 1 - (dot_product + 1) / 2  # Normalize to range [0, 1]
-    color = (color_intensity, color_intensity, color_intensity)
+    
+    # Apply distance-based weight to color
+    distance_weight = 1 / (to_tile_dist + 1e-6)
+    weighted_intensity = color_intensity * distance_weight
+
+    # Ensure intensity is between 0 and 1
+    weighted_intensity = np.clip(weighted_intensity, 0, 1)
+    
+    # Map visibility weight to a color gradient from blue to red
+    color = plt.cm.coolwarm(weighted_intensity)
     return color
 
 # Create the grid of tiles
@@ -184,7 +201,8 @@ def animate(i):
         tile_colors = []
 
         for tile in tiles:
-            if is_tile_visible(tile, current_pos, current_dir, fov_horizontal, fov_vertical):
+            visibility_weight = is_tile_visible(tile, current_pos, current_dir, fov_horizontal, fov_vertical)
+            if visibility_weight > 0:
                 color = get_tile_color(tile, current_dir, current_pos)
                 tile_colors.append(color)
                 # Compute the center of the tile for placement
