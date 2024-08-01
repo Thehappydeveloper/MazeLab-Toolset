@@ -11,7 +11,7 @@ class Config:
     def __init__(self, dataset_folder_path, output_file_path, selected_experiment_participant_pairs,
                  sphere_density=0.1, prism_density=0.02, include_spheres="Yes", include_prisms="Yes", 
                  include_point_clouds="Yes", FPS=30, material_color="Grey scale", light_color="Grey scale", 
-                 float_precision=32, ply_format="Binary", pcds_point_cap=100000, normalize="No"):
+                 float_precision=32, ply_format="Binary", pcds_point_cap=100000, normalize="No",dynamic_actors_rendering_dict=None):
         self.dataset_folder_path = dataset_folder_path
         self.output_file_path = output_file_path
         self.selected_experiment_participant_pairs = selected_experiment_participant_pairs
@@ -27,6 +27,7 @@ class Config:
         self.ply_format = ply_format
         self.pcds_point_cap = pcds_point_cap
         self.normalize = normalize
+        self.dynamic_actors_rendering_dict=dynamic_actors_rendering_dict
 
 def check_and_create_directory(path):
     if not os.path.exists(path):

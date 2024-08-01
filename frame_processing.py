@@ -28,7 +28,6 @@ def process_points(points, material_color, light_color, light_intensity, config,
     assert hasattr(config, 'material_color'), "Config must have 'material_color' attribute."
     assert hasattr(config, 'light_color'), "Config must have 'light_color' attribute."
     assert hasattr(config, 'float_precision'), "Config must have 'float_precision' attribute."
-    assert rendered in [0, 1], "Rendered must be either 0 or 1."
 
     is_color_list = isinstance(material_color, np.ndarray) and len(material_color) == len(points)
     is_light_list = isinstance(light_color, np.ndarray) and len(light_color) == len(points)
@@ -154,7 +153,7 @@ def process_frame(frame_path, config):
     Returns:
         np.ndarray: Processed and optionally normalized points.
     """
-    prisms, spheres, point_clouds = read_attributes_from_file(frame_path)
+    prisms, spheres, point_clouds = read_attributes_from_file(frame_path, config)
     all_points = []
 
     if config.include_spheres == 'Yes':
@@ -187,7 +186,7 @@ def process_frame_by_actor(frame_path, config):
     Returns:
         dict: Dictionary with actor names as keys and their corresponding processed and optionally normalized points as values.
     """
-    prisms, spheres, point_clouds = read_attributes_from_file(frame_path)
+    prisms, spheres, point_clouds = read_attributes_from_file(frame_path, config)
     all_points_by_actor = {}
 
     if config.include_spheres == 'Yes':

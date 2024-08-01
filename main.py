@@ -6,10 +6,13 @@ import argparse
 from tqdm import tqdm
 
 from main_utils import check_and_create_directory, handle_experiment_participant, Config
+from file_operations import generate_dynamic_rendering_dict
 
 def main(config):
     assert os.path.exists(config.dataset_folder_path), f"Dataset folder path '{config.dataset_folder_path}' does not exist."
     check_and_create_directory(config.output_file_path)
+
+    #Generate dict of rendering information for dynamic objects
 
     for experiment, participants in tqdm(config.selected_experiment_participant_pairs.items(), desc="Experiments"):
         for participant in tqdm(participants, desc=f"Participants in {experiment}", leave=False):
@@ -41,6 +44,8 @@ if __name__ == "__main__":
 
         output_path = args.output_path if args.output_path else os.path.join(os.path.dirname(os.path.abspath(__file__)), "pcdDataset")
 
+        dynamic_actors_rendering_dict = generate_dynamic_rendering_dict(args.input_path, experiment_dict)
+
         config = Config(
             dataset_folder_path=args.input_path,
             output_file_path=output_path,
@@ -56,7 +61,8 @@ if __name__ == "__main__":
             float_precision=args.float_precision,
             ply_format=args.ply_format,
             pcds_point_cap=args.pcds_point_cap,
-            normalize=args.normalize_point_cloud
+            normalize=args.normalize_point_cloud,
+            dynamic_actors_rendering_dict=dynamic_actors_rendering_dict
         )
 
         main(config)
