@@ -77,14 +77,22 @@ def process_experiment_dataset(base_path):
             transformed_actor_frames = {}
             for actor, bool_list in actor_frames.items():
                 if isinstance(bool_list, list):
-                    continuous_true_count = 0
+                    continuous_true_count = 60 // 2
+                    C = abs(math.log(0.1)) + 1
+
                     for idx, value in enumerate(bool_list):
                         if value:
-                            continuous_true_count += 1
-                            bool_list[idx] = continuous_true_count
+                            continuous_true_count += 0.5 * math.log(1 + continuous_true_count) + C
+                            # Ensure the score doesn't exceed the amnesia threshold
+                            if continuous_true_count > 60:
+                                continuous_true_count = 60
                         else:
-                            continuous_true_count = math.floor(bool_list[idx-1] / 2) if idx > 0 else 0
-                            bool_list[idx] = continuous_true_count
+                            if idx > 0:
+                                continuous_true_count = math.floor(bool_list[idx - 1] * 0.1)
+                            else:
+                                continuous_true_count = 0  # Or some default value when idx is 0 and value is False
+                            
+                        bool_list[idx] = continuous_true_count
 
                     transformed_actor_frames[actor] = bool_list
 
