@@ -32,6 +32,26 @@ def parse_rendering_states_from_frame(filepath):
 
     return actors
 
+def polynomial_function(x):
+    """
+    Evaluates the polynomial function based on the given coefficients.
+
+    Args:
+        x (float or numpy array): Input value(s) for which the polynomial is evaluated.
+
+    Returns:
+        float or numpy array: Result of the polynomial evaluation.
+    """
+    # Coefficients of the polynomial: [a3, a2, a1, a0]
+    a3 = 2.31481481e-6
+    a2 = -1.66666667e-3
+    a1 = 3.91666667e-1
+    a0 = 3.00000000e+1
+    
+    # Compute polynomial: a3*x^3 + a2*x^2 + a1*x + a0
+    y = a3 * np.power(x, 3) + a2 * np.power(x, 2) + a1 * x + a0
+    
+    return y
 
 def generate_dynamic_rendering_dict(base_path, experiment_dict):
     """
@@ -88,15 +108,26 @@ def generate_dynamic_rendering_dict(base_path, experiment_dict):
             for actor, bool_list in actor_frames.items():
                 if isinstance(bool_list, list):
                     continuous_true_count = 0
-                    for idx, value in enumerate(bool_list):
+                    transformed_scores = []
+                    forget_rate = 14/15  # Define the forget rate
+
+                    for value in bool_list:
                         if value:
                             continuous_true_count += 1
-                            bool_list[idx] = continuous_true_count
+                            score = polynomial_function(continuous_true_count)
+                            # Ensure the score doesn't exceed the max value
+                            if score > 60:
+                                score = 60
                         else:
-                            continuous_true_count = math.floor(bool_list[idx-1] / 2) if idx > 0 else 0
-                            bool_list[idx] = continuous_true_count
+                            if transformed_scores:
+                                # Apply the forget rate to the last score
+                                score = np.floor(transformed_scores[-1] * forget_rate)
+                            else:
+                                score = 0  # Or some default value when no previous score exists
+                            
+                        transformed_scores.append(score)
 
-                    transformed_actor_frames[actor] = bool_list
+                    transformed_actor_frames[actor] = transformed_scores
 
             participants_data[participant] = transformed_actor_frames
         data[experiment] = participants_data

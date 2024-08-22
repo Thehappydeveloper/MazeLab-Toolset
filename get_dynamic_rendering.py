@@ -78,11 +78,10 @@ def process_experiment_dataset(base_path):
             for actor, bool_list in actor_frames.items():
                 if isinstance(bool_list, list):
                     continuous_true_count = 60 // 2
-                    C = abs(math.log(0.1)) + 1
 
                     for idx, value in enumerate(bool_list):
                         if value:
-                            continuous_true_count += 0.5 * math.log(1 + continuous_true_count) + C
+                            continuous_true_count += 0.5 * math.log(1 + continuous_true_count)
                             # Ensure the score doesn't exceed the amnesia threshold
                             if continuous_true_count > 60:
                                 continuous_true_count = 60
@@ -101,7 +100,8 @@ def process_experiment_dataset(base_path):
     return data
 
 # Path to the base dataset directory
-base_path = "/home/jeremy/Documents/datasets/Dataset_large_metadata/"
+#base_path = "/home/jeremy/Documents/datasets/Dataset_large_metadata/"
+base_path = "/home/ubuntu/Documents/Datasets/Dataset_large"
 result = process_experiment_dataset(base_path)
 
 # Print or use the result as needed
