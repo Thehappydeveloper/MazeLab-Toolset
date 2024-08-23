@@ -124,6 +124,7 @@ def generate_dynamic_rendering_dict(base_path, experiment_dict):
                                 score = np.floor(transformed_scores[-1] * forget_rate)
                             else:
                                 score = 0  # Or some default value when no previous score exists
+                            continuous_true_count = 0
                             
                         transformed_scores.append(score)
 
