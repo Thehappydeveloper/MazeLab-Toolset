@@ -8,16 +8,7 @@ based on user-selected experiments and participants. The application allows user
 3. Select experiments and participants from the dataset.
 4. Generate and copy a command string to the clipboard for point cloud data generation.
 
-The generated command string includes the selected settings and the experiments/participants, and it can be used to run an external program (e.g., 'myprogram') with the specified parameters.
-
-The main components of the program include:
-- Functions to handle folder browsing, updating the treeviews, generating the command string, and user interactions.
-- Tkinter widgets for user inputs and displaying the data.
-
-Dependencies:
-- tkinter
-- os
-- re
+The generated command string includes the selected settings and the experiments/participants, and it can be used to run the external converter with the specified parameters.
 """
 
 

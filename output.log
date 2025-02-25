@@ -1,864 +1,0 @@
-Processing Experiments:   0%|          | 0/15 [00:00<?, ?it/s]
-Processing Participants in Experiment_1:   0%|          | 0/14 [00:00<?, ?it/s][A
-
-Processing Frames in DefaultParticipant_2024711141410831:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:   5%|▍         | 260/5400 [00:00<00:01, 2599.26it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  11%|█         | 578/5400 [00:00<00:01, 2934.26it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  16%|█▋        | 886/5400 [00:00<00:01, 2995.42it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  22%|██▏       | 1195/5400 [00:00<00:01, 3032.29it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  28%|██▊       | 1506/5400 [00:00<00:01, 3060.09it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  34%|███▎      | 1819/5400 [00:00<00:01, 3079.36it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  39%|███▉      | 2127/5400 [00:00<00:01, 3046.62it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  45%|████▌     | 2432/5400 [00:00<00:00, 3044.84it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  51%|█████     | 2739/5400 [00:00<00:00, 3049.54it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  56%|█████▋    | 3044/5400 [00:01<00:00, 3048.31it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  62%|██████▏   | 3349/5400 [00:01<00:00, 3012.59it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  68%|██████▊   | 3651/5400 [00:01<00:00, 2979.92it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  73%|███████▎  | 3950/5400 [00:01<00:00, 2955.57it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  79%|███████▉  | 4256/5400 [00:01<00:00, 2985.41it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  84%|████████▍ | 4555/5400 [00:01<00:00, 2976.94it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  90%|████████▉ | 4857/5400 [00:01<00:00, 2987.82it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711141410831:  96%|█████████▌| 5165/5400 [00:01<00:00, 3011.26it/s][A[A
-
-                                                                                                               [A[A
-Processing Participants in Experiment_1:   7%|▋         | 1/14 [00:01<00:24,  1.88s/it][A
-
-Processing Frames in DefaultParticipant_202471115179123:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:   6%|▌         | 311/5400 [00:00<00:01, 3108.22it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  12%|█▏        | 655/5400 [00:00<00:01, 3293.61it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  18%|█▊        | 985/5400 [00:00<00:01, 3245.09it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  24%|██▍       | 1310/5400 [00:00<00:01, 3201.53it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  30%|███       | 1631/5400 [00:00<00:01, 3190.16it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  36%|███▌      | 1951/5400 [00:00<00:01, 3147.47it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  42%|████▏     | 2266/5400 [00:00<00:00, 3135.44it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  48%|████▊     | 2580/5400 [00:00<00:00, 3115.56it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  54%|█████▎    | 2892/5400 [00:00<00:00, 3070.09it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  59%|█████▉    | 3200/5400 [00:01<00:00, 3057.24it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  65%|██████▍   | 3506/5400 [00:01<00:00, 3017.09it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  71%|███████   | 3808/5400 [00:01<00:00, 2999.34it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  76%|███████▌  | 4111/5400 [00:01<00:00, 3008.05it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  82%|████████▏ | 4412/5400 [00:01<00:00, 2990.75it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  87%|████████▋ | 4721/5400 [00:01<00:00, 3019.08it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  93%|█████████▎| 5030/5400 [00:01<00:00, 3038.61it/s][A[A
-
-Processing Frames in DefaultParticipant_202471115179123:  99%|█████████▉| 5347/5400 [00:01<00:00, 3072.84it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_1:  14%|█▍        | 2/14 [00:03<00:22,  1.85s/it][A
-
-Processing Frames in DefaultParticipant_2024711173358451:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:   5%|▌         | 290/5400 [00:00<00:01, 2896.20it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  12%|█▏        | 640/5400 [00:00<00:01, 3247.48it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  18%|█▊        | 965/5400 [00:00<00:01, 3168.82it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  24%|██▍       | 1285/5400 [00:00<00:01, 3174.03it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  30%|██▉       | 1604/5400 [00:00<00:01, 3175.49it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  36%|███▌      | 1927/5400 [00:00<00:01, 3193.12it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  42%|████▏     | 2247/5400 [00:00<00:00, 3171.26it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  48%|████▊     | 2601/5400 [00:00<00:00, 3283.82it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  54%|█████▍    | 2930/5400 [00:00<00:00, 3213.46it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  60%|██████    | 3253/5400 [00:01<00:00, 3217.60it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  66%|██████▌   | 3576/5400 [00:01<00:00, 3183.89it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  72%|███████▏  | 3899/5400 [00:01<00:00, 3196.80it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  78%|███████▊  | 4219/5400 [00:01<00:00, 3160.53it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  84%|████████▍ | 4536/5400 [00:01<00:00, 3151.84it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  90%|████████▉ | 4852/5400 [00:01<00:00, 3135.47it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711173358451:  96%|█████████▌| 5166/5400 [00:01<00:00, 3114.02it/s][A[A
-
-                                                                                                               [A[A
-Processing Participants in Experiment_1:  21%|██▏       | 3/14 [00:05<00:20,  1.82s/it][A
-
-Processing Frames in DefaultParticipant_202475131153927:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:   5%|▌         | 292/5400 [00:00<00:01, 2918.61it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  12%|█▏        | 629/5400 [00:00<00:01, 3178.60it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  18%|█▊        | 953/5400 [00:00<00:01, 3203.64it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  24%|██▎       | 1274/5400 [00:00<00:01, 3162.86it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  29%|██▉       | 1591/5400 [00:00<00:01, 3155.55it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  35%|███▌      | 1912/5400 [00:00<00:01, 3172.55it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  41%|████▏     | 2230/5400 [00:00<00:01, 3139.71it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  47%|████▋     | 2547/5400 [00:00<00:00, 3146.02it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  53%|█████▎    | 2862/5400 [00:00<00:00, 3114.44it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  59%|█████▉    | 3176/5400 [00:01<00:00, 3118.16it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  65%|██████▍   | 3503/5400 [00:01<00:00, 3162.05it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  71%|███████▏  | 3859/5400 [00:01<00:00, 3278.11it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  78%|███████▊  | 4209/5400 [00:01<00:00, 3343.28it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  85%|████████▌ | 4616/5400 [00:01<00:00, 3559.76it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  92%|█████████▏| 4973/5400 [00:01<00:00, 3485.66it/s][A[A
-
-Processing Frames in DefaultParticipant_202475131153927:  99%|█████████▊| 5323/5400 [00:01<00:00, 3387.86it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_1:  29%|██▊       | 4/14 [00:07<00:17,  1.79s/it][A
-
-Processing Frames in DefaultParticipant_202475151625109:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:   5%|▍         | 248/5400 [00:00<00:02, 2476.29it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  10%|█         | 553/5400 [00:00<00:01, 2805.46it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  16%|█▋        | 889/5400 [00:00<00:01, 3057.57it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  22%|██▏       | 1205/5400 [00:00<00:01, 3094.02it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  28%|██▊       | 1520/5400 [00:00<00:01, 3110.33it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  34%|███▍      | 1832/5400 [00:00<00:01, 3109.98it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  40%|███▉      | 2144/5400 [00:00<00:01, 3111.63it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  46%|████▌     | 2459/5400 [00:00<00:00, 3120.53it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  51%|█████▏    | 2774/5400 [00:00<00:00, 3126.23it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  57%|█████▋    | 3104/5400 [00:01<00:00, 3174.64it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  64%|██████▎   | 3433/5400 [00:01<00:00, 3205.62it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  70%|███████   | 3807/5400 [00:01<00:00, 3366.23it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  77%|███████▋  | 4144/5400 [00:01<00:00, 3315.02it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  83%|████████▎ | 4476/5400 [00:01<00:00, 3282.75it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  89%|████████▉ | 4805/5400 [00:01<00:00, 3261.00it/s][A[A
-
-Processing Frames in DefaultParticipant_202475151625109:  95%|█████████▌| 5132/5400 [00:01<00:00, 3243.28it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_1:  36%|███▌      | 5/14 [00:09<00:16,  1.79s/it][A
-
-Processing Frames in DefaultParticipant_202478105831343:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:   5%|▌         | 273/5400 [00:00<00:01, 2716.31it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  11%|█         | 577/5400 [00:00<00:01, 2904.61it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  16%|█▋        | 884/5400 [00:00<00:01, 2979.59it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  22%|██▏       | 1199/5400 [00:00<00:01, 3042.32it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  28%|██▊       | 1508/5400 [00:00<00:01, 3054.87it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  34%|███▎      | 1814/5400 [00:00<00:01, 3037.43it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  40%|███▉      | 2133/5400 [00:00<00:01, 3085.08it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  45%|████▌     | 2449/5400 [00:00<00:00, 3104.66it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  51%|█████     | 2765/5400 [00:00<00:00, 3121.38it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  57%|█████▋    | 3078/5400 [00:01<00:00, 3106.51it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  63%|██████▎   | 3397/5400 [00:01<00:00, 3126.78it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  69%|██████▉   | 3714/5400 [00:01<00:00, 3139.73it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  75%|███████▍  | 4033/5400 [00:01<00:00, 3150.44it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  81%|████████  | 4349/5400 [00:01<00:00, 3146.57it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  86%|████████▋ | 4670/5400 [00:01<00:00, 3165.04it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  92%|█████████▏| 4987/5400 [00:01<00:00, 3124.81it/s][A[A
-
-Processing Frames in DefaultParticipant_202478105831343:  98%|█████████▊| 5315/5400 [00:01<00:00, 3170.34it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_1:  43%|████▎     | 6/14 [00:10<00:14,  1.80s/it][A
-
-Processing Frames in DefaultParticipant_20247811461137:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:   5%|▍         | 268/5400 [00:00<00:01, 2670.62it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  11%|█         | 578/5400 [00:00<00:01, 2922.71it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  17%|█▋        | 901/5400 [00:00<00:01, 3061.23it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  22%|██▏       | 1209/5400 [00:00<00:01, 3067.72it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  28%|██▊       | 1516/5400 [00:00<00:01, 3065.32it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  34%|███▍      | 1827/5400 [00:00<00:01, 3080.20it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  40%|███▉      | 2150/5400 [00:00<00:01, 3128.77it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  46%|████▌     | 2468/5400 [00:00<00:00, 3144.71it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  52%|█████▏    | 2783/5400 [00:00<00:00, 3129.41it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  57%|█████▋    | 3098/5400 [00:01<00:00, 3132.66it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  63%|██████▎   | 3412/5400 [00:01<00:00, 3118.93it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  69%|██████▉   | 3752/5400 [00:01<00:00, 3201.22it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  76%|███████▌  | 4087/5400 [00:01<00:00, 3242.81it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  82%|████████▏ | 4412/5400 [00:01<00:00, 3237.28it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  88%|████████▊ | 4736/5400 [00:01<00:00, 3222.18it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137:  94%|█████████▎| 5059/5400 [00:01<00:00, 3187.20it/s][A[A
-
-Processing Frames in DefaultParticipant_20247811461137: 100%|█████████▉| 5383/5400 [00:01<00:00, 3202.12it/s][A[A
-
-                                                                                                             [A[A
-Processing Participants in Experiment_1:  50%|█████     | 7/14 [00:12<00:12,  1.80s/it][A
-
-Processing Frames in DefaultParticipant_202478141859972:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:   5%|▌         | 288/5400 [00:00<00:01, 2879.67it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  12%|█▏        | 625/5400 [00:00<00:01, 3166.86it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  17%|█▋        | 942/5400 [00:00<00:01, 3082.67it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  24%|██▎       | 1271/5400 [00:00<00:01, 3161.06it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  30%|██▉       | 1613/5400 [00:00<00:01, 3251.38it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  36%|███▌      | 1946/5400 [00:00<00:01, 3275.89it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  42%|████▏     | 2274/5400 [00:00<00:00, 3253.97it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  48%|████▊     | 2600/5400 [00:00<00:00, 3211.30it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  54%|█████▍    | 2922/5400 [00:00<00:00, 3205.98it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  60%|██████    | 3243/5400 [00:01<00:00, 3126.65it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  66%|██████▌   | 3557/5400 [00:01<00:00, 3103.95it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  72%|███████▏  | 3868/5400 [00:01<00:00, 3089.32it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  78%|███████▊  | 4201/5400 [00:01<00:00, 3159.69it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  84%|████████▎ | 4518/5400 [00:01<00:00, 3110.22it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  89%|████████▉ | 4830/5400 [00:01<00:00, 3110.32it/s][A[A
-
-Processing Frames in DefaultParticipant_202478141859972:  95%|█████████▌| 5151/5400 [00:01<00:00, 3137.51it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_1:  57%|█████▋    | 8/14 [00:14<00:10,  1.80s/it][A
-
-Processing Frames in DefaultParticipant_202478145317712:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:   5%|▌         | 281/5400 [00:00<00:01, 2805.70it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  11%|█         | 589/5400 [00:00<00:01, 2964.22it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  16%|█▋        | 886/5400 [00:00<00:01, 2865.54it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  22%|██▏       | 1214/5400 [00:00<00:01, 3023.07it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  28%|██▊       | 1537/5400 [00:00<00:01, 3094.87it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  34%|███▍      | 1861/5400 [00:00<00:01, 3141.01it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  40%|████      | 2183/5400 [00:00<00:01, 3164.12it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  47%|████▋     | 2522/5400 [00:00<00:00, 3233.31it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  53%|█████▎    | 2853/5400 [00:00<00:00, 3255.05it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  59%|█████▉    | 3179/5400 [00:01<00:00, 3237.36it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  65%|██████▌   | 3524/5400 [00:01<00:00, 3301.82it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  71%|███████▏  | 3855/5400 [00:01<00:00, 3290.98it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  78%|███████▊  | 4185/5400 [00:01<00:00, 3277.21it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  84%|████████▎ | 4519/5400 [00:01<00:00, 3292.24it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  90%|████████▉ | 4849/5400 [00:01<00:00, 3279.59it/s][A[A
-
-Processing Frames in DefaultParticipant_202478145317712:  96%|█████████▌| 5178/5400 [00:01<00:00, 3256.72it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_1:  64%|██████▍   | 9/14 [00:16<00:08,  1.79s/it][A
-
-Processing Frames in DefaultParticipant_20247816612354:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:   5%|▌         | 296/5400 [00:00<00:01, 2953.65it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  12%|█▏        | 631/5400 [00:00<00:01, 3176.36it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  18%|█▊        | 959/5400 [00:00<00:01, 3218.34it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  24%|██▍       | 1285/5400 [00:00<00:01, 3229.78it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  30%|██▉       | 1610/5400 [00:00<00:01, 3232.43it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  36%|███▌      | 1934/5400 [00:00<00:01, 3233.74it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  42%|████▏     | 2258/5400 [00:00<00:00, 3231.18it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  48%|████▊     | 2582/5400 [00:00<00:00, 3204.82it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  54%|█████▍    | 2903/5400 [00:00<00:00, 3182.37it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  60%|█████▉    | 3222/5400 [00:01<00:00, 3170.21it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  66%|██████▌   | 3548/5400 [00:01<00:00, 3195.78it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  72%|███████▏  | 3873/5400 [00:01<00:00, 3211.45it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  78%|███████▊  | 4195/5400 [00:01<00:00, 3201.07it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  84%|████████▎ | 4519/5400 [00:01<00:00, 3211.28it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  90%|████████▉ | 4841/5400 [00:01<00:00, 3199.69it/s][A[A
-
-Processing Frames in DefaultParticipant_20247816612354:  96%|█████████▌| 5178/5400 [00:01<00:00, 3250.24it/s][A[A
-
-                                                                                                             [A[A
-Processing Participants in Experiment_1:  71%|███████▏  | 10/14 [00:17<00:07,  1.78s/it][A
-
-Processing Frames in DefaultParticipant_20247912257730:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:   5%|▍         | 261/5400 [00:00<00:01, 2602.21it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  10%|█         | 542/5400 [00:00<00:01, 2715.80it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  16%|█▌        | 852/5400 [00:00<00:01, 2890.78it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  22%|██▏       | 1172/5400 [00:00<00:01, 3010.77it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  28%|██▊       | 1489/5400 [00:00<00:01, 3064.65it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  33%|███▎      | 1802/5400 [00:00<00:01, 3083.14it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  39%|███▉      | 2117/5400 [00:00<00:01, 3102.98it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  45%|████▌     | 2431/5400 [00:00<00:00, 3109.95it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  51%|█████     | 2755/5400 [00:00<00:00, 3145.36it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  57%|█████▋    | 3070/5400 [00:01<00:00, 3143.65it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  63%|██████▎   | 3385/5400 [00:01<00:00, 3131.54it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  68%|██████▊   | 3699/5400 [00:01<00:00, 3119.59it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  74%|███████▍  | 4011/5400 [00:01<00:00, 3106.33it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  80%|████████  | 4322/5400 [00:01<00:00, 2890.00it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  86%|████████▌ | 4623/5400 [00:01<00:00, 2921.28it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  91%|█████████▏| 4934/5400 [00:01<00:00, 2974.33it/s][A[A
-
-Processing Frames in DefaultParticipant_20247912257730:  97%|█████████▋| 5246/5400 [00:01<00:00, 3015.90it/s][A[A
-
-                                                                                                             [A[A
-Processing Participants in Experiment_1:  79%|███████▊  | 11/14 [00:19<00:05,  1.80s/it][A
-
-Processing Frames in DefaultParticipant_20247914517687:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:   5%|▌         | 276/5400 [00:00<00:01, 2758.96it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  11%|█▏        | 620/5400 [00:00<00:01, 3157.58it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  17%|█▋        | 936/5400 [00:00<00:01, 3136.29it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  23%|██▎       | 1255/5400 [00:00<00:01, 3153.43it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  30%|███       | 1621/5400 [00:00<00:01, 3335.22it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  36%|███▌      | 1955/5400 [00:00<00:01, 3252.87it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  42%|████▏     | 2289/5400 [00:00<00:00, 3280.68it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  49%|████▊     | 2625/5400 [00:00<00:00, 3304.30it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  55%|█████▍    | 2956/5400 [00:00<00:00, 3268.77it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  61%|██████    | 3284/5400 [00:01<00:00, 3227.98it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  67%|██████▋   | 3608/5400 [00:01<00:00, 3183.28it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  73%|███████▎  | 3927/5400 [00:01<00:00, 3150.27it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  79%|███████▊  | 4243/5400 [00:01<00:00, 3140.11it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  84%|████████▍ | 4558/5400 [00:01<00:00, 3139.81it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  90%|█████████ | 4876/5400 [00:01<00:00, 3149.99it/s][A[A
-
-Processing Frames in DefaultParticipant_20247914517687:  96%|█████████▌| 5193/5400 [00:01<00:00, 3152.63it/s][A[A
-
-                                                                                                             [A[A
-Processing Participants in Experiment_1:  86%|████████▌ | 12/14 [00:21<00:03,  1.80s/it][A
-
-Processing Frames in DefaultParticipant_202479152540927:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:   6%|▌         | 298/5400 [00:00<00:01, 2972.12it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  12%|█▏        | 656/5400 [00:00<00:01, 3318.96it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  18%|█▊        | 988/5400 [00:00<00:01, 3128.91it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  24%|██▍       | 1304/5400 [00:00<00:01, 3139.21it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  30%|███       | 1621/5400 [00:00<00:01, 3146.59it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  36%|███▌      | 1939/5400 [00:00<00:01, 3153.38it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  42%|████▏     | 2255/5400 [00:00<00:01, 3115.20it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  48%|████▊     | 2567/5400 [00:00<00:00, 3114.47it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  53%|█████▎    | 2879/5400 [00:00<00:00, 3092.93it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  59%|█████▉    | 3189/5400 [00:01<00:00, 3087.98it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  65%|██████▍   | 3498/5400 [00:01<00:00, 3010.83it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  70%|███████   | 3805/5400 [00:01<00:00, 3027.76it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  76%|███████▌  | 4113/5400 [00:01<00:00, 3042.21it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  82%|████████▏ | 4420/5400 [00:01<00:00, 3047.98it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  88%|████████▊ | 4726/5400 [00:01<00:00, 3048.76it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  93%|█████████▎| 5037/5400 [00:01<00:00, 3065.49it/s][A[A
-
-Processing Frames in DefaultParticipant_202479152540927:  99%|█████████▉| 5344/5400 [00:01<00:00, 3059.13it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_1:  93%|█████████▎| 13/14 [00:23<00:01,  1.80s/it][A
-
-Processing Frames in DefaultParticipant_202479163532527:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:   6%|▌         | 304/5400 [00:00<00:01, 3036.17it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  12%|█▏        | 652/5400 [00:00<00:01, 3291.22it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  18%|█▊        | 982/5400 [00:00<00:01, 3240.97it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  24%|██▍       | 1307/5400 [00:00<00:01, 3153.00it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  30%|███       | 1623/5400 [00:00<00:01, 3086.47it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  36%|███▌      | 1940/5400 [00:00<00:01, 3109.54it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  42%|████▏     | 2265/5400 [00:00<00:00, 3153.35it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  48%|████▊     | 2582/5400 [00:00<00:00, 3156.87it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  54%|█████▎    | 2898/5400 [00:00<00:00, 3153.11it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  60%|█████▉    | 3215/5400 [00:01<00:00, 3157.21it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  65%|██████▌   | 3531/5400 [00:01<00:00, 3143.45it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  71%|███████   | 3846/5400 [00:01<00:00, 3082.93it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  77%|███████▋  | 4155/5400 [00:01<00:00, 3072.32it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  83%|████████▎ | 4473/5400 [00:01<00:00, 3103.87it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  89%|████████▊ | 4784/5400 [00:01<00:00, 3094.51it/s][A[A
-
-Processing Frames in DefaultParticipant_202479163532527:  94%|█████████▍| 5101/5400 [00:01<00:00, 3115.33it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_1: 100%|██████████| 14/14 [00:25<00:00,  1.81s/it][A
-                                                                                        [AProcessing Experiments:   7%|▋         | 1/15 [00:25<05:53, 25.23s/it]
-Processing Participants in Experiment_10:   0%|          | 0/14 [00:00<?, ?it/s][A
-
-Processing Frames in DefaultParticipant_202471114341650:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:   4%|▍         | 223/5400 [00:00<00:02, 2229.67it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  10%|█         | 562/5400 [00:00<00:01, 2907.68it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  16%|█▌        | 871/5400 [00:00<00:01, 2988.80it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  22%|██▏       | 1183/5400 [00:00<00:01, 3038.38it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  28%|██▊       | 1487/5400 [00:00<00:01, 2997.21it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  33%|███▎      | 1789/5400 [00:00<00:01, 3002.53it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  39%|███▉      | 2111/5400 [00:00<00:01, 3072.52it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  45%|████▍     | 2426/5400 [00:00<00:00, 3096.14it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  51%|█████     | 2749/5400 [00:00<00:00, 3134.13it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  57%|█████▋    | 3063/5400 [00:01<00:00, 3087.57it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  62%|██████▏   | 3372/5400 [00:01<00:00, 3018.38it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  68%|██████▊   | 3675/5400 [00:01<00:00, 2996.06it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  74%|███████▎  | 3975/5400 [00:01<00:00, 2978.14it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  79%|███████▉  | 4281/5400 [00:01<00:00, 3002.33it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  85%|████████▌ | 4603/5400 [00:01<00:00, 3065.48it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  91%|█████████▏| 4931/5400 [00:01<00:00, 3125.85it/s][A[A
-
-Processing Frames in DefaultParticipant_202471114341650:  97%|█████████▋| 5247/5400 [00:01<00:00, 3134.81it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_10:   7%|▋         | 1/14 [00:01<00:24,  1.85s/it][A
-
-Processing Frames in DefaultParticipant_2024711164144871:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:   5%|▌         | 284/5400 [00:00<00:01, 2831.40it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  11%|█         | 602/5400 [00:00<00:01, 3031.19it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  17%|█▋        | 925/5400 [00:00<00:01, 3115.24it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  23%|██▎       | 1241/5400 [00:00<00:01, 3129.05it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  29%|██▉       | 1554/5400 [00:00<00:01, 3124.58it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  35%|███▍      | 1869/5400 [00:00<00:01, 3129.30it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  40%|████      | 2186/5400 [00:00<00:01, 3141.45it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  46%|████▋     | 2503/5400 [00:00<00:00, 3148.74it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  52%|█████▏    | 2818/5400 [00:00<00:00, 3142.80it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  58%|█████▊    | 3133/5400 [00:01<00:00, 3135.33it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  64%|██████▍   | 3452/5400 [00:01<00:00, 3149.59it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  70%|██████▉   | 3767/5400 [00:01<00:00, 3095.43it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  76%|███████▌  | 4084/5400 [00:01<00:00, 3117.54it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  82%|████████▏ | 4409/5400 [00:01<00:00, 3156.97it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  88%|████████▊ | 4727/5400 [00:01<00:00, 3162.35it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  93%|█████████▎| 5044/5400 [00:01<00:00, 3157.62it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711164144871:  99%|█████████▉| 5360/5400 [00:01<00:00, 3132.76it/s][A[A
-
-                                                                                                               [A[A
-Processing Participants in Experiment_10:  14%|█▍        | 2/14 [00:03<00:21,  1.82s/it][A
-
-Processing Frames in DefaultParticipant_2024711175013719:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:   5%|▌         | 271/5400 [00:00<00:01, 2706.56it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  11%|█         | 584/5400 [00:00<00:01, 2950.85it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  17%|█▋        | 896/5400 [00:00<00:01, 3022.74it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  22%|██▏       | 1207/5400 [00:00<00:01, 3055.49it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  28%|██▊       | 1514/5400 [00:00<00:01, 3056.30it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  34%|███▎      | 1822/5400 [00:00<00:01, 3063.13it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  40%|███▉      | 2144/5400 [00:00<00:01, 3110.74it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  45%|████▌     | 2456/5400 [00:00<00:00, 3093.52it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  51%|█████     | 2766/5400 [00:00<00:00, 3042.23it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  57%|█████▋    | 3071/5400 [00:01<00:00, 3020.22it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  62%|██████▏   | 3374/5400 [00:01<00:00, 2912.70it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  68%|██████▊   | 3674/5400 [00:01<00:00, 2935.87it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  74%|███████▎  | 3972/5400 [00:01<00:00, 2948.84it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  79%|███████▉  | 4270/5400 [00:01<00:00, 2955.18it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  85%|████████▍ | 4571/5400 [00:01<00:00, 2968.51it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  90%|█████████ | 4874/5400 [00:01<00:00, 2982.80it/s][A[A
-
-Processing Frames in DefaultParticipant_2024711175013719:  96%|█████████▌| 5179/5400 [00:01<00:00, 3000.24it/s][A[A
-
-                                                                                                               [A[A
-Processing Participants in Experiment_10:  21%|██▏       | 3/14 [00:05<00:20,  1.85s/it][A
-
-Processing Frames in DefaultParticipant_202475133847456:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:   5%|▌         | 279/5400 [00:00<00:01, 2778.52it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  11%|█         | 580/5400 [00:00<00:01, 2912.92it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  17%|█▋        | 905/5400 [00:00<00:01, 3063.46it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  22%|██▏       | 1213/5400 [00:00<00:01, 3062.90it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  28%|██▊       | 1527/5400 [00:00<00:01, 3087.75it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  34%|███▍      | 1843/5400 [00:00<00:01, 3106.78it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  40%|███▉      | 2154/5400 [00:00<00:01, 3069.76it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  46%|████▌     | 2474/5400 [00:00<00:00, 3105.86it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  52%|█████▏    | 2786/5400 [00:00<00:00, 3106.55it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  57%|█████▋    | 3098/5400 [00:01<00:00, 3106.41it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  63%|██████▎   | 3409/5400 [00:01<00:00, 3103.91it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  69%|██████▉   | 3722/5400 [00:01<00:00, 3109.23it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  75%|███████▍  | 4034/5400 [00:01<00:00, 3109.61it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  80%|████████  | 4346/5400 [00:01<00:00, 3112.13it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  86%|████████▋ | 4664/5400 [00:01<00:00, 3128.90it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  92%|█████████▏| 4983/5400 [00:01<00:00, 3144.36it/s][A[A
-
-Processing Frames in DefaultParticipant_202475133847456:  98%|█████████▊| 5311/5400 [00:01<00:00, 3183.42it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_10:  29%|██▊       | 4/14 [00:07<00:18,  1.84s/it][A
-
-Processing Frames in DefaultParticipant_202475161542871:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:   5%|▌         | 280/5400 [00:00<00:01, 2797.61it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  11%|█         | 577/5400 [00:00<00:01, 2894.62it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  17%|█▋        | 894/5400 [00:00<00:01, 3019.73it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  22%|██▎       | 1215/5400 [00:00<00:01, 3093.62it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  29%|██▊       | 1549/5400 [00:00<00:01, 3175.71it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  35%|███▍      | 1875/5400 [00:00<00:01, 3202.71it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  41%|████      | 2201/5400 [00:00<00:00, 3218.18it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  47%|████▋     | 2523/5400 [00:00<00:00, 3218.02it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  53%|█████▎    | 2846/5400 [00:00<00:00, 3219.45it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  59%|█████▊    | 3172/5400 [00:01<00:00, 3231.32it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  65%|██████▍   | 3496/5400 [00:01<00:00, 3221.57it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  71%|███████   | 3829/5400 [00:01<00:00, 3251.31it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  77%|███████▋  | 4155/5400 [00:01<00:00, 3251.49it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  83%|████████▎ | 4481/5400 [00:01<00:00, 3230.64it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  89%|████████▉ | 4805/5400 [00:01<00:00, 3218.90it/s][A[A
-
-Processing Frames in DefaultParticipant_202475161542871:  95%|█████████▌| 5139/5400 [00:01<00:00, 3252.32it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_10:  36%|███▌      | 5/14 [00:09<00:16,  1.81s/it][A
-
-Processing Frames in DefaultParticipant_202478111612890:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:   6%|▌         | 297/5400 [00:00<00:01, 2966.98it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  11%|█▏        | 611/5400 [00:00<00:01, 3063.79it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  17%|█▋        | 935/5400 [00:00<00:01, 3141.01it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  23%|██▎       | 1250/5400 [00:00<00:01, 3136.36it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  29%|██▉       | 1564/5400 [00:00<00:01, 3125.31it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  35%|███▍      | 1880/5400 [00:00<00:01, 3133.12it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  41%|████      | 2199/5400 [00:00<00:01, 3151.02it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  47%|████▋     | 2531/5400 [00:00<00:00, 3203.55it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  53%|█████▎    | 2861/5400 [00:00<00:00, 3230.64it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  59%|█████▉    | 3185/5400 [00:01<00:00, 3220.40it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  65%|██████▍   | 3508/5400 [00:01<00:00, 3214.69it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  71%|███████   | 3836/5400 [00:01<00:00, 3231.73it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  77%|███████▋  | 4160/5400 [00:01<00:00, 3221.20it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  83%|████████▎ | 4485/5400 [00:01<00:00, 3228.25it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  89%|████████▉ | 4815/5400 [00:01<00:00, 3249.42it/s][A[A
-
-Processing Frames in DefaultParticipant_202478111612890:  96%|█████████▌| 5162/5400 [00:01<00:00, 3312.65it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_10:  43%|████▎     | 6/14 [00:10<00:14,  1.80s/it][A
-
-Processing Frames in DefaultParticipant_20247812252941:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:   5%|▍         | 253/5400 [00:00<00:02, 2523.90it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  10%|█         | 565/5400 [00:00<00:01, 2872.55it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  16%|█▋        | 890/5400 [00:00<00:01, 3039.40it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  22%|██▏       | 1213/5400 [00:00<00:01, 3114.34it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  28%|██▊       | 1529/5400 [00:00<00:01, 3129.56it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  34%|███▍      | 1856/5400 [00:00<00:01, 3175.07it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  41%|████      | 2195/5400 [00:00<00:00, 3243.86it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  47%|████▋     | 2527/5400 [00:00<00:00, 3262.86it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  53%|█████▎    | 2854/5400 [00:00<00:00, 3258.41it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  59%|█████▉    | 3180/5400 [00:01<00:00, 3201.39it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  65%|██████▍   | 3501/5400 [00:01<00:00, 3188.67it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  71%|███████   | 3824/5400 [00:01<00:00, 3198.71it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  77%|███████▋  | 4145/5400 [00:01<00:00, 3199.04it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  83%|████████▎ | 4465/5400 [00:01<00:00, 3171.43it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  89%|████████▊ | 4783/5400 [00:01<00:00, 3173.01it/s][A[A
-
-Processing Frames in DefaultParticipant_20247812252941:  94%|█████████▍| 5101/5400 [00:01<00:00, 3161.68it/s][A[A
-
-                                                                                                             [A[A
-Processing Participants in Experiment_10:  50%|█████     | 7/14 [00:12<00:12,  1.79s/it][A
-
-Processing Frames in DefaultParticipant_202478143628203:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:   5%|▌         | 275/5400 [00:00<00:01, 2739.84it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  11%|█         | 579/5400 [00:00<00:01, 2911.57it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  17%|█▋        | 892/5400 [00:00<00:01, 3008.40it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  23%|██▎       | 1216/5400 [00:00<00:01, 3098.65it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  29%|██▊       | 1549/5400 [00:00<00:01, 3181.76it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  35%|███▍      | 1876/5400 [00:00<00:01, 3211.08it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  41%|████      | 2201/5400 [00:00<00:00, 3220.33it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  47%|████▋     | 2524/5400 [00:00<00:00, 3195.85it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  53%|█████▎    | 2849/5400 [00:00<00:00, 3212.35it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  59%|█████▊    | 3171/5400 [00:01<00:00, 3138.98it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  65%|██████▍   | 3486/5400 [00:01<00:00, 3141.42it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  70%|███████   | 3801/5400 [00:01<00:00, 3139.50it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  76%|███████▋  | 4118/5400 [00:01<00:00, 3146.55it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  82%|████████▏ | 4433/5400 [00:01<00:00, 3135.85it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  88%|████████▊ | 4747/5400 [00:01<00:00, 3135.41it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203:  94%|█████████▎| 5061/5400 [00:01<00:00, 3124.71it/s][A[A
-
-Processing Frames in DefaultParticipant_202478143628203: 100%|█████████▉| 5387/5400 [00:01<00:00, 3164.22it/s][A[A
-
-                                                                                                              [A[A
-Processing Participants in Experiment_10:  57%|█████▋    | 8/14 [00:14<00:10,  1.80s/it][A
-
-Processing Frames in DefaultParticipant_202478151027486:   0%|          | 0/5400 [00:00<?, ?it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:   5%|▌         | 284/5400 [00:00<00:01, 2839.12it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  11%|█         | 604/5400 [00:00<00:01, 3050.40it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  17%|█▋        | 940/5400 [00:00<00:01, 3189.18it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  23%|██▎       | 1259/5400 [00:00<00:01, 3137.32it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  29%|██▉       | 1574/5400 [00:00<00:01, 3139.19it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  35%|███▌      | 1902/5400 [00:00<00:01, 3186.44it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  41%|████▏     | 2240/5400 [00:00<00:00, 3246.82it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  48%|████▊     | 2567/5400 [00:00<00:00, 3252.05it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  54%|█████▎    | 2899/5400 [00:00<00:00, 3272.79it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  60%|█████▉    | 3230/5400 [00:01<00:00, 3282.43it/s][A[A
-
-Processing Frames in DefaultParticipant_202478151027486:  66%|██████▌   | 3568/5400 [00:01<00:00, 3311.88it/s][A[A
